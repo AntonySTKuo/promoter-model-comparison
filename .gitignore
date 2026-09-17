@@ -1,0 +1,31 @@
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ─── Editor / tooling ────────────────────────────────────────────────────────
+.claude/
+.agents/
+.codex/
+.vscode/
+.DS_Store
+
+# ─── Manuscript working files ────────────────────────────────────────────────
+# Drafts, figure legends, and reference PDFs live in ../MS4_local-only/, not in
+# this repository. The PDF rule is a safety net: third-party papers are
+# copyrighted and must never be pushed, even if one is copied in by accident.
+*.pdf
+
+# ─── Generated results ───────────────────────────────────────────────────────
+# Everything under results/ is reproducible from scripts/ plus tables/, so only
+# the fitted checkpoints are tracked (see the negations below): they are small
+# and let a reader redraw every figure without refitting.
+results/*
+!results/models/
+results/models/**/*.png
+results/models/**/*.svg
+
+# Vector figures are Illustrator intermediates, ~52 MB in total.
+*.svg

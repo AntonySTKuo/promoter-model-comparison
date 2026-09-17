@@ -1,0 +1,31 @@
+TF,Regulation,Trend,Medium,Technology,Sample size,Dataset ID,Reference,Dataset Key,Directory
+TetR,Repressor,PT,LB + Glu,Sort-seq,"16,380",DS01,Kuo,TetR,tables/source_Kuo/PL_TetRb.tsv; tables/source_Kuo/PL_TetRi.tsv
+LuxR,Activator,PT,LB + Glu,Sort-seq,"16,363",DS02,Kuo,LuxR,tables/source_Kuo/PL_LuxRb.tsv; tables/source_Kuo/PL_LuxRi.tsv
+CueR,Activator,PT,LB + Glu,Sort-seq,"16,368",DS03,Kuo,CueR,tables/source_Kuo/PL_CueRb.tsv; tables/source_Kuo/PL_CueRi.tsv
+AcrR,Repressor,IS,M9 + Glu,Fluorescent protein,49,DS04,Parisutham,AcrR,tables/source_Parisutham/AcrR.csv
+AgaR,Repressor,IS,M9 + Glu,Fluorescent protein,42,DS05,Parisutham,AgaR,tables/source_Parisutham/AgaR.csv
+AscG,Repressor,PT,M9 + Glu,Fluorescent protein,78,DS06,Parisutham,AscG,tables/source_Parisutham/AscG.csv
+GntR,Repressor,IS,M9 + Glu,Fluorescent protein,89,DS07,Parisutham,GntR,tables/source_Parisutham/GntR.csv
+LacI,Repressor,PT,M9 + Ace,Fluorescent protein,84,DS08,Parisutham,LacI(DL5p)_Acetate,tables/source_Parisutham/LacI(DL5p)_Acetate.csv
+LacI,Repressor,IS,M9 + Ara,Fluorescent protein,85,DS09,Parisutham,LacI(DL5p)_Arabinose,tables/source_Parisutham/LacI(DL5p)_Arabinose.csv
+LacI,Repressor,IS,M9 + Gal,Fluorescent protein,87,DS10,Parisutham,LacI(DL5p)_Galactose,tables/source_Parisutham/LacI(DL5p)_Galactose.csv
+LacI,Repressor,IS,M9 + Glu,Fluorescent protein,86,DS11,Parisutham,LacI(DL5p)_Glucose,tables/source_Parisutham/LacI(DL5p)_Glucose.csv
+LacI,Repressor,IS,M9 + Gly,Fluorescent protein,86,DS12,Parisutham,LacI(DL5p)_Glycerol,tables/source_Parisutham/LacI(DL5p)_Glycerol.csv
+LacI,Repressor,IS,M9 + Pyr,Fluorescent protein,86,DS13,Parisutham,LacI(DL5p)_Pyrruvate,tables/source_Parisutham/LacI(DL5p)_Pyrruvate.csv
+MngR (DL5p),Repressor,IS,M9 + Glu,Fluorescent protein,53,DS14,Parisutham,MngR(DL5p),tables/source_Parisutham/MngR(DL5p).csv
+MngR (MngRp),Repressor,IS,M9 + Glu,Fluorescent protein,74,DS15,Parisutham,MngR(MngRp),tables/source_Parisutham/MngR(MngRp).csv
+PdhR,Repressor,IS,M9 + Glu,Fluorescent protein,54,DS16,Parisutham,PdhR,tables/source_Parisutham/PdhR.csv
+UlaR,Repressor,IS,M9 + Glu,Fluorescent protein,41,DS17,Parisutham,UlaR,tables/source_Parisutham/UlaR.csv
+CpxR,Activator,IS,M9 + Ara,Fluorescent protein,91,DS18,Parisutham,CpxR(DL5p)_Arabinose,tables/source_Parisutham/CpxR(DL5p)_Arabinose.csv
+CpxR,Activator,IS,M9 + Gal,Fluorescent protein,87,DS19,Parisutham,CpxR(DL5p)_Galactose,tables/source_Parisutham/CpxR(DL5p)_Galactose.csv
+CpxR,Activator,IS,M9 + Glu,Fluorescent protein,91,DS20,Parisutham,CpxR(DL5p)_Glucose,tables/source_Parisutham/CpxR(DL5p)_Glucose.csv
+CpxR,Activator,IS,M9 + Gly,Fluorescent protein,91,DS21,Parisutham,CpxR(DL5p)_Glycerol,tables/source_Parisutham/CpxR(DL5p)_Glycerol.csv
+MetR,Activator,IS,M9 + Glu,Fluorescent protein,58,DS22,Parisutham,MetR,tables/source_Parisutham/MetR.csv
+SoxS (DL5p),Activator,PT,M9 + Glu,Fluorescent protein,41,DS23,Parisutham,SoxS(DL5p),tables/source_Parisutham/SoxS(DL5p).csv
+SoxS (FldAp),Activator,IS,M9 + Glu,Fluorescent protein,43,DS24,Parisutham,SoxS(FldAp),tables/source_Parisutham/SoxS(FldAp).csv
+AraC,Activator,PT,M9 + Gly + CAA,Fluorescent protein,48,DS25,Chen,Fig2_AraC,tables/source_Chen/Fig2_AraC.csv
+LasR,Activator,PT,M9 + Gly + CAA,Fluorescent protein,48,DS26,Chen,Fig2_LasR,tables/source_Chen/Fig2_LasR.csv
+CRP (+0.5~4.5),Repressor,IS,RDM + Glu,β-galactosidase assay,39,DS27,Forcier,Fig2_CRP_repressor,tables/source_Forcier/Fig2_CRP_repressor.csv
+CRP (-61.5),Activator,PT,RDM + Glu,β-galactosidase assay,44,DS28,Forcier,Fig5_CRP_-61.5,tables/source_Forcier/Fig5_CRP_-61.5.csv
+CRP (-71.5),Activator,PT,RDM + Glu,β-galactosidase assay,35,DS29,Forcier,Fig5_CRP_-71.5,tables/source_Forcier/Fig5_CRP_-71.5.csv
+CRP (-41.5),Activator,PT,RDM + Glu,β-galactosidase assay,21,DS30,Forcier,Fig9_CRP_-41.5,tables/source_Forcier/Fig9_CRP_-41.5.csv
