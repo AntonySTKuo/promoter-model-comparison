@@ -64,7 +64,7 @@ tables/
 
 results/
   models/                      Fitted checkpoints, one directory per model variant
-  figures/                     Generated figures (not tracked; regenerate them)
+  figures/                     Rendered figures (PNG tracked; SVG is not)
 ```
 
 ## Requirements
@@ -94,9 +94,10 @@ python scripts/Fig6_PP-FC.py
 python scripts/Fig7_AnalyticalSolution.py
 ```
 
-Each writes PNG and SVG into `results/figures/`. Panel letters, axis titles, and
-legends are added afterwards when the figures are composited for the manuscript,
-so what these scripts produce is the plotted content only.
+Each writes PNG and SVG into `results/figures/`, overwriting the PNGs committed
+here. Panel letters, axis titles, and legends are added afterwards when the
+figures are composited for the manuscript, so what these scripts produce is the
+plotted content only.
 
 ## Refitting from scratch
 

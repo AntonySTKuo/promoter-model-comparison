@@ -19,13 +19,14 @@ venv/
 *.pdf
 
 # ─── Generated results ───────────────────────────────────────────────────────
-# Everything under results/ is reproducible from scripts/ plus tables/, so only
-# the fitted checkpoints are tracked (see the negations below): they are small
-# and let a reader redraw every figure without refitting.
+# Everything under results/ is reproducible from scripts/ plus tables/. Two
+# things are still tracked: the fitted checkpoints, so a reader can redraw the
+# figures without refitting, and the rendered PNGs, so the figures can be seen
+# without running anything at all.
 results/*
 !results/models/
-results/models/**/*.png
-results/models/**/*.svg
+!results/figures/
 
-# Vector figures are Illustrator intermediates, ~52 MB in total.
+# Vector figures are Illustrator intermediates for compositing the manuscript
+# figures, ~33 MB in total, and of no use to a reader.
 *.svg
