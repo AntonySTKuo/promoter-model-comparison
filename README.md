@@ -2,7 +2,10 @@
 
 Code and curated datasets for:
 
-> Kuo S-TA, Hsu C-P, Chou H-HD. **Data coverage and model formulation reshape quantitative interpretations of transcriptional regulation.**
+> Kuo S-TA, Hsu C-P, Chou H-HD. **Data coverage and model formulation reshape
+> quantitative interpretations of bacterial transcriptional regulation.** *bioRxiv*
+> 2026.08.31.748186.
+> [doi:10.64898/2026.08.31.748186](https://doi.org/10.64898/2026.08.31.748186)
 
 The study compiles 30 transcription-factor-regulated promoter datasets from prior
 studies, fits thermodynamic models to each, and examines the relationship between
