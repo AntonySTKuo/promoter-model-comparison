@@ -28,4 +28,4 @@ checkpoints in results/models/.
 It does NOT cover the contents of tables/, which are datasets published by other
 studies and redistributed here for reproducibility. Those remain under the terms
 set by their original publishers; see tables/SOURCES.md for the per-dataset
-citation and license.
+citation.
